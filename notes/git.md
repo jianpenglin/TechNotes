@@ -7,11 +7,13 @@
 * [四、Git常用命令](#Git常用命令)
 <!-- GFM-TOC -->
 
-#### Git介绍
+## Git介绍
+
 1. svn是集中式，git是分布式
 2. github会保存本地git的所有操作记录
- 
-#### git安装连接github
+
+## git安装连接github
+
 1. 填写新仓库名称，备注信息。点击创建即可完成
 2. 在用户注册主目录(c:\Users\Administrator)下，打开Git Bash,输入命令
 ```shell
@@ -50,8 +52,9 @@ $ git push -u origin master //关联后,第一次推送master分支的所有内�
 就可以使用命令git push origin master推送最新修改
 ```
 
-#### 问题解决
-- 如果输入$ git remote add origin git@github.com:fff（github帐号名）/demo（项目名）.git 
+## 问题解决
+
+- 如果输入$ git remote add origin git@github.com:fff（github帐号名）/demo（项目名）.git
 
     提示出错信息：fatal: remote origin already exists.
 
@@ -91,17 +94,17 @@ $ git push -u origin master //关联后,第一次推送master分支的所有内�
 
     4、则需要重新输入$ git remote add origin git@github.com:jianpenglin/demo.git
 
- 
+
 - 使用git在本地创建一个项目的过程
 ```shell
-    $ makdir ~/demo    //创建一个项目demo 
+    $ makdir ~/demo    //创建一个项目demo
     $ cd ~/demo       //打开这个项目  
     $ git init             //初始化  
     $ touch README  
     $ git add README        //更新README文件  
     $ git commit -m 'first commit'     //提交更新，并注释信息“first commit”  
     $ git remote add origin git@github.com:fff/demo.git     //连接远程github项目  
-    $ git push -u origin master     //将本地项目更新到github项目上去 
+    $ git push -u origin master     //将本地项目更新到github项目上去
 ```
 
 gitconfig配置文件  
@@ -134,7 +137,7 @@ $ git add FFF.txt   //或者 $ git add -A
 ```
 然后再commit一下就没有问题了。  
 
-#### Git常用命令
+## Git常用命令
 
 | 命令 | 说明 |
 | -------- | ---------------------- |
@@ -168,4 +171,3 @@ $ git add FFF.txt   //或者 $ git add -A
 |   git remote           |查看远程库的信息|
 |   git remote -v        |查看远程库的详细信息|
 |   git push origin master  |Git会把master分支推送到远程库对应的远程分支上|
- 

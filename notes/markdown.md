@@ -10,7 +10,10 @@
 | ------ | ------ |
 | fff    |  ffff  |
 
-- 目录跳转 GFM-TOC 模式，keywords模式
+- 分割线
+***
+
+- 目录跳转 GFM-TOC 模式，keywords模式，工具自动生成
 <!-- GFM-TOC -->
 * [一、git安装连接github](#git安装连接github)
 <!-- GFM-TOC -->
