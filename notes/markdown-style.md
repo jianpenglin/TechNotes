@@ -22,7 +22,7 @@ Content.
 
 ## See also
 
-* https://link-to-more-info
+- https://link-to-more-info
 ```
 
 ## 文件
@@ -102,18 +102,18 @@ When nesting lists, use a 4 space indent for both numbered and bulleted lists:
     4 space indent for wrapped text.
 2.  2 spaces again.
 
-*   3 spaces after a bullet.
+-   3 spaces after a bullet.
     4 space indent for wrapped text.
     1.  2 spaces after a numbered list.
         8 space indent for the wrapped text of a nested list.
     2.  Looks nice, don't it?
-*   3 spaces after a bullet.
+-   3 spaces after a bullet.
 ```
 
 The following works, but it's very messy:
 
 ```markdown
-* One space,
+- One space,
 with no indent for wrapped text.
      1. Irregular nesting... DO NOT DO THIS.
 ```
@@ -122,7 +122,7 @@ Even when there's no nesting, using the 4 space indent makes layout consistent
 for wrapped text:
 
 ```markdown
-*   Foo,
+-   Foo,
     wrapped.
 
 1.  2 spaces
@@ -134,9 +134,9 @@ However, when lists are small, not nested, and a single line, one space can
 suffice for both kinds of lists:
 
 ```markdown
-* Foo
-* Bar
-* Baz.
+- Foo
+- Bar
+- Baz.
 
 1. Foo.
 2. Bar.
@@ -230,24 +230,24 @@ If you need a codeblock within a list, make sure to indent it so as to not break
 the list:
 
 ```markdown
-*   Bullet.
+-   Bullet.
 
     ```c++
     int foo;
     ```
 
-*   Next bullet.
+-   Next bullet.
 ```
 
 You can also create a nested code block with 4 spaces. Simply indent 4
 additional spaces from the list indentation:
 
 ```markdown
-*   Bullet.
+-   Bullet.
 
         int foo;
 
-*   Next bullet.
+-   Next bullet.
 ```
 
 ## Links
