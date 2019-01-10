@@ -8,16 +8,18 @@
 
 ## Java
 
+- [Java开发框架介绍](notes/java-framework.md)
+
 ## Web技术
 
-- [html](notes/html.md)
+- [html技术](notes/html.md)
 
 ## 设计
 
 - [markdown 编码规范](notes/markdown-style.md)
-
+- [http-api 设计规范](notes/http-api-design.md)
 ## 工具
 
-- [Git](notes/git.md)
-- [ftp](notes/ftp.md)
-- [markdown](notes/markdown.md)
+- [Git 使用](notes/git.md)
+- [ftp 使用](notes/ftp.md)
+- [markdown 使用](notes/markdown.md)
