@@ -9,6 +9,7 @@
 ## Java
 
 - [Java开发框架介绍](notes/java-framework.md)
+- [设计模式](notes/java-design-pattern.md)
 
 ## Web技术
 
@@ -18,6 +19,7 @@
 
 - [markdown 编码规范](notes/markdown-style.md)
 - [http-api 设计规范](notes/http-api-design.md)
+
 ## 工具
 
 - [Git 使用](notes/git.md)
