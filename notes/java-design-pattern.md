@@ -30,7 +30,7 @@
 
 ### 鸭子应用类图
 
-<div align="center"> <img src="../assets/java-design-pattern-dark.png" width=""/> </div><br>
+<div align="center"> <img src="../assets/java-design-pattern-strategy-duck.png" width=""/> </div><br>
 
 对于鸭子对象与行为，父类来控制游泳与呱呱叫行为直接写具体实现，外观显示`display()`方法抽象出来让每个鸭子自己继承后实现控制，扩展容易，需要鸭子飞的话直接让父类添加飞`fly()`即可。
 
@@ -79,11 +79,11 @@ HAS-A 优于 IS-A
 - 多用组合少用继承Favor composition over inheritence
 - 针对接口编程Program to interfaces，not implementations
 - 为了交互对象之间的松耦合设计而努力!(Strive for loosely coupled designs between objects that interact.)
-- 类应该扩展开放,对修改关闭(Classes should be open for extension but closed for modification.) 
-- 要依赖抽象,不要依赖具体类(Depend on abstractions,Do not depend on concrete classes.) 
-- 最少知识原则:只和你的密友谈话(Only talk to your friends.) 
-- 别打电话给(调用)我,我会打电话给(调用)你(Don't call us,we'll call you.) 
-- 一个类应该只有一个引起变化的原因(A class should have only one reason to change.) 
+- 类应该扩展开放,对修改关闭(Classes should be open for extension but closed for modification.)
+- 要依赖抽象,不要依赖具体类(Depend on abstractions,Do not depend on concrete classes.)
+- 最少知识原则:只和你的密友谈话(Only talk to your friends.)
+- 别打电话给(调用)我,我会打电话给(调用)你(Don't call us,we'll call you.)
+- 一个类应该只有一个引起变化的原因(A class should have only one reason to change.)
 
 #### 设计模式 OO Patterns
 

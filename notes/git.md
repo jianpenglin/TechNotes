@@ -42,7 +42,7 @@ $ git init
 $ git remote add origin git@github.com:myname/example.git //关联一个远程库命令，
 git@github.com:myname/example.git 这个是自己远程库
 ```
-10.   从服务器拉取工程
+10.   从服务器拉取工程,拉取最新代码
 ```shell
 $ git pull origin master
 ```
@@ -51,6 +51,7 @@ $ git pull origin master
 $ git push -u origin master //关联后,第一次推送master分支的所有内容命令，此后，每次本地提交后，
 就可以使用命令git push origin master推送最新修改
 ```
+
 
 ## 问题解决
 
