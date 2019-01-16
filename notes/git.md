@@ -138,6 +138,29 @@ $ git add FFF.txt   //或者 $ git add -A
 ```
 然后再commit一下就没有问题了。  
 
+## 版本还原
+
+**谨慎使用，避免把未提交的变更弄丢失，被还原或者覆盖**
+
+git revert HEAD                  撤销前一次 commit
+git revert HEAD^               撤销前前一次 commit
+git revert commit-id （比如：fa042ce57ebbe5bb9c8db709f719cec2c58ee7ff）撤销指定的版本，撤销也会作为一次提交进行保存。git revert是提交一个新的版本，将需要revert的版本的内容再反向修改回去，版本会递增，不影响之前提交的内容
+
+git reset <file> # 从暂存区恢复到工作文件
+git reset -- .   从暂存区恢复到工作文件
+git reset --hard   恢复最近一次提交过的状态，即放弃上次提交后的所有本次修改，小心使用
+
+## Git暂存管理
+
+git stash  暂存
+git stash list  列所有stash
+git stash apply  恢复暂存的内容
+git stash drop   删除暂存区
+
+## GitHub
+
+git remote -v # 查看远程服务器地址和仓库名称
+
 ## Git常用命令
 
 | 命令 | 说明 |

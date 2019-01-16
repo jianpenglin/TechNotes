@@ -8,6 +8,7 @@
 
 ## Java
 
+- [Java基础](notes/java.md)
 - [Java开发框架介绍](notes/java-framework.md)
 - [设计模式](notes/java-design-pattern.md)
 
