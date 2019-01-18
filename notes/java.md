@@ -15,7 +15,6 @@ Class<ReflectTest> clazz = (Class<ReflectTest>) Class.forName("vip.techinfo.refl
 // 2.获取一个对象
 Constructor con = clazz.getConstructor();
 ReflectTest intance = (ReflectTest) con.newInstance();
-String[] s = new String[]{"a","b","c"};
 // 3.获取setFF Method对象
 Method method = clazz.getMethod("setFF", String.class);
 // 4.调用invoke方法来调用
