@@ -28,17 +28,27 @@ theme: hexo-theme-next
 deploy:
   type: git
   # repository: https://github.com/xxx.com.git
-  repository: #远程仓库，需要注册完GITLAB，然后新建一个项目。
+  repository: #远程仓库，需要注册完GITLAB或者GITHUB或者CODING，然后新建一个项目。
   branch: master  #自己的分支名称。
 ```
-执行
+多个仓库同时发布使用下面配置
+```
+deploy:
+  type: git
+  repo: 
+    github: git@github.com:xx.github.io.git
+    coding: git@git.coding.net:xx.git
+  branch: master
+```
+执行下面命令，注意需要在git bash控制台下执行，不然会提示识别不到git相关配置
 ```
 hexo clean
 hexo generate
 npm install --save hexo-deployer-git
 hexo deploy
 ```
-完成部署
+部署过程中会提示输入账户密码或者根据`git教程`配置SSH key，完成部署
+
 修改_config.yml
 ```
 url:    #GITLAB给我们生成的域名

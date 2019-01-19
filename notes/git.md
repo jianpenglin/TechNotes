@@ -40,7 +40,7 @@ $ git init
 9.  关联一个远程库命令
 ```shell
 $ git remote add origin git@github.com:myname/example.git //关联一个远程库命令，
-git@github.com:myname/example.git 这个是自己远程库
+git@github.com:myname/example.git 这个是自己远程库，有ssh跟https两种链接类型
 ```
 10.   从服务器拉取工程,拉取最新代码
 ```shell
